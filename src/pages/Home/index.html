@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dias Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./StylePages/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header class="header">
+        <div class="container_header">
+            <div class="container_initial"><a href="#"><img src="/assets/snkrs.svg" alt="SNEAKERS"
+                        class="container_snkr"></a>
+            </div>
+            <input type="checkbox" id="menu_toggle" class="menu_toggle">
+            <label for="menu_toggle" class="menu_icon">
+                <i class="fa fa-bars"></i>
+            </label>
+            <div class="container_initial menu_items">
+
+
+                <a href="#" class="container_a_li">Home</a>
+                <a href="#sobre_nos" class="container_a_li">Sobre nós</a>
+                <a href="#contact_p" class="container_a_li">Contato</a>
+                <a href="#help" class="container_a_li">Ajuda</a>
+
+
+            </div>
+        </div>
+
+    
+        <div class="container_header_products">
+            <div class="container_products">
+                <div class="titleForm">
+                    <a href="#" class="link_logo">
+                        <h1>Dias<span class="boldh1">Store <i class="fa-solid fa-bag-shopping"></i></span></h1>
+                    </a>
+                </div>
+            </div>
+            <div class="container_products">
+
+                <a href="#lancamentos" class="container_subheader">Lançamentos</a>
+                <a href="#ofertas" class="container_subheader">Ofertas</a>
+                <a href="#" class="container_subheader">Masculino</a>
+                <a href="#" class="container_subheader">Feminino</a>
+            </div>
+            <div class="container_products">
+                <input type="search" name="search_header" id="search_header" class="search_header" placeholder="Buscar">
+            </div>
+            <div class="container_products">
+
+                <a href="#" class="icons_header"><img src="/assets/Favoritos.svg" alt="Favoritos"
+                        class="img_icons_header"></a>
+                <a href="#" class="icons_header"><img src="/assets/Frame 98.svg" alt="Carrinho"
+                        class="img_icons_header"></a>
+                <a href="#" class="icons_header"><img src="/assets/Usuário.svg" alt="Usuário"
+                        class="img_icons_header"></a>
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- SECTION CAROUSEL -->
+
+    <section class="carousel">
+        <h2 id="lancamentos" class="title_carousel">Lançamentos</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="/assets/Phantomandblack.png" alt="Nike Dunk Phantom and Black"
+                        class="snkr_img">
+                    <h2 class="snkr_desc">Nike Sb Dunk Low Pro Electric</h2>
+                </div>
+                <div class="swiper-slide"><img src="/assets/HighGold.png" alt="Air Jordan 1 High OG" class="snkr_img">
+                    <h2 class="snkr_desc">Air Jordan 1 High OG</h2>
+                </div>
+                <div class="swiper-slide"><img src="/assets/MetalicSilver.png" alt="Metallic Silver" class="snkr_img">
+                    <h2 class="snkr_desc">Air Zoom Spiridon Cage 2 Metallic Zoom</h2>
+                </div>
+                <div class="swiper-slide"><img src="/assets/Malachite.png" alt="Malachite" class="snkr_img">
+                    <h2 class="snkr_desc">Nike Sb Dunk Low Malachite</h2>
+                </div>
+                <div class="swiper-slide"><img src="/assets/OilGreen.png" alt="Oil Green" class="snkr_img">
+                    <h2 class="snkr_desc">Nike Sb Women's Dunk Low Oil Green</h2>
+                </div>
+                <div class="swiper-slide"><img src="/assets/InternationalBlue.png" alt="International Blue"
+                        class="snkr_img">
+                    <h2 class="snkr_desc">Air Foamposite One International Blue</h2>
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+
+
+    <section class="banner">
+        <img src="/assets/banner-dunk.png" alt="Banner Principal" class="banner_img">
+    </section>
+    <!-- Cards -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-light sidebar">
+                <div class="sidebar-sticky">
+                    <h5 class="sidebar-heading">Filtros</h5>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action">Todos</a>
+                        <a href="#" class="list-group-item list-group-item-action">Dunk Low</a>
+                        <a href="#" class="list-group-item list-group-item-action">Air Jordan</a>
+                        <a href="#" class="list-group-item list-group-item-action">Air Max</a>
+                    </div>
+                    <h6 class="sidebar-heading mt-4">Preço</h6>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action">R$500 - R$700</a>
+                        <a href="#" class="list-group-item list-group-item-action">R$700 - R$900</a>
+                        <a href="#" class="list-group-item list-group-item-action">R$900 - R$1500</a>
+                        <a href="#" class="list-group-item list-group-item-action">R$1500+</a>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Product Cards -->
+            <section class="cards_products col-md-9 ml-sm-auto col-lg-10 px-4">
+                <h2 id="ofertas" class="title_carousel">Ofertas</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="/assets/GreyGum.png" alt="Nike Sb Dunk Low Grey Gum">
+                                <div class="card-body">
+                                    <h3 class="card-title">Nike Sb Dunk Low</h3>
+                                    <h5 class="card-text">Football Grey Gum</h5>
+                                    <a href="../Product/GreyGum/greyGum.html" target="_blank" class="btn btn-primary">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="/assets/BalticBlue.png"
+                                    alt="Nike Sb Dunk Low Baltic Blue">
+                                <div class="card-body">
+                                    <h3 class="card-title">Nike Sb Dunk Low</h3>
+                                    <h5 class="card-text">Baltic Blue</h5>
+                                    <a href="../Product/BalticBlue/balticBlue.html" target="_blank" class="btn btn-primary">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="/assets/Pear.png" alt="HUF X Nike Air Max 1 Pear">
+                                <div class="card-body">
+                                    <h3 class="card-title">HUF X Nike Air Max 1</h3>
+                                    <h5 class="card-text">Pear</h5>
+                                    <a href="../Product/Pear/pear.html" target="_blank" class="btn btn-primary">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="/assets/MediumOlive/MediumOlive.png"
+                                    alt="Nike Sb Dunk Low Medium Olive">
+                                <div class="card-body">
+                                    <h3 class="card-title">Nike Sb Dunk Low</h3>
+                                    <h5 class="card-text">Medium Olive</h5>
+                                    <a href="../Product/MediumOlive/mediumOlive.html" target="_blank" class="btn btn-primary">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="/assets/R4/R4.png" alt="Women's Shox R4">
+                                <div class="card-body">
+                                    <h3 class="card-title">Women's Shox R4</h3>
+                                    <h5 class="card-text">Black</h5>
+                                    <a href="../Product/R4/r4.html" target="_blank" class="btn btn-primary">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="/assets/FirstInFlight/FirstInFlight.png"
+                                    alt="Women's Air Jordan 1 High OG First in Flight">
+                                <div class="card-body">
+                                    <h3 class="card-title">Women's Air Jordan 1 High OG</h3>
+                                    <h5 class="card-text">First in Flight</h5>
+                                    <a href="../Product/FirstInFlight/firstInFlight.html" target="_blank" class="btn btn-primary">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="/assets/IndustrialBlue/IndustrialBlue.png"
+                                    alt="Air Jordan 4 Retro Industrial Blue">
+                                <div class="card-body">
+                                    <h3 class="card-title">Air Jordan 4 Retro</h3>
+                                    <h5 class="card-text">Industrial Blue</h5>
+                                    <a href="../Product/IndustrialBlue/industrialBlue.html" target="_blank" class="btn btn-primary">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="/assets/Phantom/Phantom.png" alt="Women's Dunk Low Phantom">
+                                <div class="card-body">
+                                    <h3 class="card-title">Women's Dunk Low</h3>
+                                    <h5 class="card-text">Phantom</h5>
+                                    <a href="../Product/Phantom/phantom.html" target="_blank" class="btn btn-primary">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="/assets/FieldGeneral/WhiteAndOrange.png"
+                                    alt="Field General '82 White and Orange Blaze">
+                                <div class="card-body">
+                                    <h3 class="card-title">Field General '82</h3>
+                                    <h5 class="card-text">White and Orange Blaze</h5>
+                                    <a href="../Product/FieldGeneral/fieldGeneral.html" target="_blank" class="btn btn-primary">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- Footer -->
+
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+
+    <div class="footer">
+        <!-- Footer -->
+        <footer class="text-center text-lg-start text-white" style="background-color: #1c2331">
+            <!-- Section: Social media -->
+            <section class="d-flex justify-content-between p-4" style="background-color: var(--login-color)">
+                <!-- Left -->
+                <div class="me-5">
+                    <span>Mantenha-se conectado </span>
+                </div>
+                <!-- Left -->
+
+                <!-- Right -->
+                <div>
+                    <a href="https://github.com/leonardodiaskt" class="text-white me-4" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/leonardo-dias-0b3342190/" class="text-white me-4"
+                        target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://wa.me/5511942685710" class="text-white me-4" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.instagram.com/leonardodiaskt" class="text-white me-4" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+
+            </section>
+
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold">Sobre Nós</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #7c4dff; height: 2px" />
+                            <p id="sobre_nos">
+                                Iniciada em 2004, a Dias Store, com sede em São Paulo, é a maior revendedora de sneakers
+                                do Brasil. Com produtos 100% originais, buscamos oferecer a melhor qualidade e rapidez
+                                na entrega.
+                            </p>
+                        </div>
+
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h6 id="help" class="text-uppercase fw-bold">Ajuda</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #7c4dff; height: 2px" />
+                            <p>
+                                <a href="https://wa.me/5511942685710" class="text-white" target="_blank">Entre em
+                                    contato</a>
+                            </p>
+                        </div>
+
+                        <div class="col-md-4 col-lg-3 col-xl-4 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 id="contact_p" class="text-uppercase fw-bold">Contato</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #7c4dff; height: 2px" />
+                            <p class="contact_p"><i class="fas fa-envelope mr-3"></i> ldsantos@almavivasolutions.com</p>
+                            <p class="contact_p"><i class="fas fa-phone mr-3"></i> +55 11 94268-5710</p>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                © 2024 Copyright:
+                <a class="text-white" href="#">diasstore.com</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    </div>
+    <!-- End of .container -->
+
+
+
+    <!-- CDN JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

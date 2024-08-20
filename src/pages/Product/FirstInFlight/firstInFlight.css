@@ -1,0 +1,31 @@
+@import url('../../Home/StylePages/header.css');
+@import url('../../Home/StylePages/footer.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+    --login-color: #009ee2;
+    --primary: #ffffff;
+    --secondary: #000000;
+    --form: #f4f2fa;
+    --gradient-header: linear-gradient(90deg, rgba(1,49,59,1) 0%, rgba(2,41,50,1) 15%, rgba(33,34,38,1) 51%, rgba(2,0,36,1) 100%);
+    --font-project: "Rubik", sans-serif;
+    --font-secondary: "Helvetica", sans-serif;
+    --search_bar_hover: #bebdbf;
+}
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--form);
+}
+
+
+.col-sm{
+    padding: 2em 0;
+    display: flex;
+}

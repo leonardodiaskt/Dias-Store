@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+    --login-color: #009EE2;
+    --primary: #ffffff;
+    --secondary: #000000;
+    --form: #f4f2fa;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--form);
+    color: var(--secondary);
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .221);
+}
+
+.leftScreen{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--login-color);
+    padding: 1rem;
+}
+
+.leftScreen img{
+    height: auto;
+    max-width: 100%;
+    display: flex;
+}
+
+.boldh1{
+    font-weight: 600;
+    color: var(--login-color);
+}
+
+.divscreen{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.headerForm{
+    margin-bottom: 6rem;
+    display: flex;
+}
+
+.titleForm{
+    margin: auto;
+}
+
+.headerForm h1::after{
+    content: "";
+    display: block;
+    width: 12.4rem;
+    height: 0.2rem;
+    background-color: var(--login-color);
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+
+.inputForm{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.inputForm input{
+    margin: 0.3rem 0;
+    padding: 0.8rem 1.2rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    width: 20rem;
+}
+
+.inputForm input:hover{
+    background-color: var(--form);
+    /* border-bottom: solid 1px var(--secondary); */
+    
+}
+
+.inputForm input:focus-visible{
+    outline: 1px solid var(--login-color);
+
+}
+
+.forgotPassword{
+    display: flex;
+    justify-content: end;
+    margin-top: 2rem;
+}
+
+.forgotPassword a{
+    text-decoration: none;
+    color: var(--secondary);
+}
+
+.buttonLogin button{
+    width: 50%;
+    align-items: center;
+    margin-left: 25%;
+    border: none;
+    background-color: var(--login-color);
+    margin-top: 1.5rem;
+    padding: 1.1rem;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.buttonLogin button:hover{
+    border: 1px solid var(--secondary);
+}
+
+.buttonLogin a{
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.pSub{
+    font-family: "Rubik", sans-serif;
+    color: var(--secondary);
+    opacity: 50%;
+}
+
+label{
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1370px) {
+    .leftScreen{
+        width: 100%;
+    }
+    .leftScreen img{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    .divscreen{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .leftScreen{
+        display: none;
+    }
+    .headerForm{
+        margin-bottom: 10rem;
+        align-items: center;
+        justify-content: center;
+    }
+}

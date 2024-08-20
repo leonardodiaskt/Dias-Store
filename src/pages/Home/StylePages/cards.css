@@ -1,0 +1,23 @@
+.col-sm{
+    padding: 2em 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-img-top{
+    height: 50%;
+}
+
+#sidebar{
+    margin-top: 10em;
+}
+
+@media (max-width: 768px){
+    #sidebar{
+        padding: 2em 0 2em 0;
+    }
+}
